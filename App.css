@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+.form{
+  margin: 20px;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.form input{
+  border: 1px solid #cccccc;
+  padding: 12px 10px;
+  outline: none;
+  margin-bottom: 12px;
+  width: 200px;
+}
+
+.form button{
+  background-color: aquamarine;
+  border: none;
+  outline: none;
+  padding: 10p 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px;
+}
+
+.buttonContainer{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.buttonContainer button:last-child{
+  margin-left: 10px;
+  background-color: rgb(243, 70, 70);
+}
+
+.dataTable{
+  margin-top: 10px;
+}
+
+table,tr,td,th{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 12px;
+}
+
+table button{
+  border: none;
+  outline: none;
+  background: rgba(240, 240, 103, 0.856);
+  padding: 6px 10px;
+  margin: 0 5px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+table button:nth-child(even){
+  background-color: rgba(245, 76, 76, 0.911);
+}
+
+.addbtn{
+  margin-left: 640px;
+  margin-top: 40px;
+  width: 50px;
+  height: 30px;
+  background-color: lightcoral;
+  border: none;
+  border-radius: 6px;
+
+}
+
+.btnview{
+  background-color: rgb(186, 243, 186);
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.table{
+  margin-bottom: 20px;
+}
