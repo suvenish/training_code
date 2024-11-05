@@ -1,4 +1,4 @@
-import './background.css'
+import './Homepage.css'
 import video from '../../assests/video.mp4'
 
 const Background = () => {
