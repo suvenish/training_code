@@ -2,13 +2,13 @@ import boto3
 import json
 
 # Initialize boto3 clients for Lambda and API Gateway
-lambda_client = boto3.client('lambda')           # Creates a Lambda client
-apigateway_client = boto3.client('apigateway')   # Creates an API Gateway client
+lambda_client = boto3.client('lambda')           # Creates a Lambda client which is used to interact with AWS Lambda
+apigateway_client = boto3.client('apigateway')   # Creates an API Gateway client which is used to interact with Amazon API Gateway
 
 # Define Lambda function and API details
-lambda_function_name = 'lambda_handler'  # Name of your Lambda function
+lambda_function_name = 'lambda_handler'  # Name of your Lambda function that want to triggered
 api_name = 'TriggerLambdaAPI'                    # Name for the new API Gateway
-api_stage = 'dev'                                # Deployment stage for the API Gateway (e.g., 'dev', 'prod')
+api_stage = 'dev'                                # Deployment or Development stage for the API Gateway (e.g., 'dev', 'prod')
 
 # Step 1: Create the API Gateway REST API
 # This creates a new REST API in API Gateway with the specified name and description.
