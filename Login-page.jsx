@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../Login/Register.css';
+import '../Login/Login-page.css';
 import { FaUser, FaLock, FaEnvelope } from "react-icons/fa";
 
 const Register = () => {
